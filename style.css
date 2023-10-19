@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-size: 80px;
+}
+
+button{
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  border-style: none;
+  transition: 0.4s;
+  background-color: #78D6C6;
+  color: #F5FCCD;
+  font-size:medium;
+  font-weight: 500;
+}
+
+button:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.main-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.title{
+  color: #12486B;
+}
+
+
+
+
